@@ -9,21 +9,21 @@ class Heroi {
       let ataque;
       switch (this.tipo) {
         case 'mago':
-          ataque = 'usou magia'
+          ataque = 'usando magia'
           break;
         case 'guerreiro':
-          ataque = 'usou espada'
+          ataque = 'usando espada'
           break;
         case 'monge':
-          ataque = 'usou artes marciais'
+          ataque = 'usando artes marciais'
           break;
         case 'ninja':
-          ataque = 'usou shuriken'
+          ataque = 'usando shuriken'
           break;
         default:
-          ataque = 'usou um ataque desconhecido'
+          ataque = 'usando um ataque desconhecido'
       }
   
-      console.log(`O ${this.tipo} atacou usando ${ataque}`)
+      console.log(`O ${this.tipo} atacou ${ataque}`)
     }
   }
